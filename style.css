@@ -159,3 +159,9 @@ main {
 }.header-menu {
 
 }
+
+@media screen and (max-width: 768px){
+    section,aside{
+        width: 100%;
+    }
+}
