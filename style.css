@@ -157,13 +157,13 @@ main {
 .btns button:hover:before {
     width: 100%;
 }.header-menu {
-       float: none;
-       text-align: center;
-       width: 100%;
+  
 }
 
 @media screen and (max-width: 768px){
     section,aside{
+        float: none;
+        text-align: center;
         width: 100%;
     }
 @media screen and (max-width: 600px){
