@@ -59,7 +59,7 @@ header {
 .menu-content .list-itens a {
     text-decoration: none;
     color: white;
-    padding: 15rm;
+    padding: 1.5rm;
     transform: 2ms ease-in;
     position: relative;
 }
