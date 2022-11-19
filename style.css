@@ -38,7 +38,7 @@ header {
 .menu-content {
     text-transform: uppercase;
     height: 100%;
-    display: inline-block;
+    display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: 1.8rem;
@@ -59,7 +59,7 @@ header {
 .menu-content .list-itens a {
     text-decoration: none;
     color: white;
-    padding: 1.5rem;
+    padding:6px 10px 0px 10px;;
     transform: 2ms ease-in;
     position: relative;
 }
@@ -84,13 +84,13 @@ header {
 
 main {
     height: 93vh;
-    display: inline-block;
+    display:flex;
     justify-content: center;
     align-items: center;
 }
 
 .main-content {
-    display: inline-block;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -150,7 +150,7 @@ main {
     width: 0;
     height: 60px;
     background-color: rgb(61, 61, 61);
-    z-index: -1;
+    z-index: 1001;
     transition: 1s;
 }
 
