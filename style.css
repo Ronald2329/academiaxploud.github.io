@@ -38,7 +38,7 @@ header {
 .menu-content {
     text-transform: uppercase;
     height: 100%;
-    display: flex;
+    display: inline-block;
     justify-content: space-around;
     align-items: center;
     font-size: 1.8rem;
@@ -51,7 +51,7 @@ header {
 }
 
 .menu-content .list-itens {
-    display: flex;
+    display: inline-block;
     list-style: none;
     gap: 10px;
 }
@@ -84,13 +84,13 @@ header {
 
 main {
     height: 93vh;
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
 }
 
 .main-content {
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     justify-content: center;
     align-items: center;
