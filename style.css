@@ -51,7 +51,7 @@ header {
 }
 
 .menu-content .list-itens {
-    display: inline-block;
+    display: flex;
     list-style: none;
     gap: 10px;
 }
@@ -59,7 +59,7 @@ header {
 .menu-content .list-itens a {
     text-decoration: none;
     color: white;
-    padding: 1.5rm;
+    padding: 1.5rem;
     transform: 2ms ease-in;
     position: relative;
 }
@@ -84,7 +84,7 @@ header {
 
 main {
     height: 93vh;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
