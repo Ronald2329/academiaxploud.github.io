@@ -20,7 +20,7 @@ html {
 }
 
 body {
-    background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)), url(XPLOUD.jpeg);
+    background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)), url(PUBLIC_HTML/LOGOACADEMIAXPLOUD.png);
     background-position: center center;
     background-size: cover;
     background-position-y: 0px;
@@ -38,7 +38,7 @@ header {
 .menu-content {
     text-transform: uppercase;
     height: 100%;
-    display: flex;
+    display: inline;
     justify-content: space-around;
     align-items: center;
     font-size: 1.8rem;
@@ -156,20 +156,93 @@ main {
 
 .btns button:hover:before {
     width: 100%;
-}.header-menu {
-  
+}
+@media only screen and (max-width: 600px ) {
+
+    .html {
+    width: 200vw;
+    height: 200vh;
+    font-size: 65%;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+    .primary-text {
+        width: 350px;
+        height: 250px;
+        font-size: 5rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .menu-content .list-itens {
+        display:flex;
+        list-style-position: outside;
+        gap: 10px;
+        padding: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    
+    }
+
+    .logo {
+        font-size: 2rem;
+        letter-spacing: 0.4rem;
+        cursor: pointer;
+         text-align: center;
+
+    }
+
+    .btns {
+        display: inline-block;
+        justify-content: center;
+        gap: 20px;
+        
+    }
+    
+    .btns.button {
+        width:px;
+        height: px;
+        cursor: pointer;
+        border: 1px solid white;
+        color: white;
+        text-transform: uppercase;
+        background-color: transparent;
+        font-weight: bold;
+        font-size: 10pt;
+        letter-spacing: 0.2rem;
+        border-radius: 20px;
+        position: relative;
+        transition: 1.5s;
+    }
+    
+    .main {
+        height: 93vh;
+        display:list-item;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-content .list-itens a {
+        text-decoration: none;
+        color: white;
+        display: inline;
+        padding: 1.5rem;
+        transform: 2ms ease-in;
+        position:relative;
+        top: 10px; left: 10px;
+        font-size: 0.8rem;
+    }
+    .second-text {
+    margin-bottom: 7rem;
+    font-size: 1.5rem;
+    color: rgb(165, 165, 165);
+    text-transform: uppercase;
 }
 
-@media screen and (max-width: 768px){
-    section,aside{
-        float: none;
-        text-align: center;
-        width: 100%;
-    }
-@media screen and (max-width: 600px){
-   nav_li{
-       float: none;
-       text-align: center;
-       width: 100%;
-    }
-}
